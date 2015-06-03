@@ -77,16 +77,23 @@ footer {
 
 #headingOne,
 #headingTwo,
-#headingThree {
+#headingThree,
+#headingFour {
 	background-color: #bc964f;
 	color: #fff;
 }
 
-.faq {
-	background-image: url('../img/computer.jpeg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
+.panel a:hover {
+	color: #000;
+	-webkit-transition: color 600ms;
+}
+
+.panel-body {
+	color: #000;
+}
+
+.faq-footer {
+	background-color: transparent;
 }
 
 /* TYPOGRAPHY */
