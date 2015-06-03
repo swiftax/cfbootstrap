@@ -33,6 +33,7 @@ body {
 
 	.introduction > h1{
 		margin-top: 25%;
+		overflow: hidden;
 	}
 
 	.introduction h3 {
