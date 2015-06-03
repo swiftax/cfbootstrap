@@ -9,23 +9,47 @@ body {
 	padding-left: 0;
 }
 
-.jumbotron .name,
-.subheading {
-	color: #fff;
-	text-transform: uppercase;
-	padding-left: 8rem;
-}
-
-.jumbotron 
-
-.name {
-	padding-top: 4rem;
-}
 
 .nav {
 	background-color: transparent;
 	height: 4em;
 
+}
+
+.introduction {
+	text-align: center;
+	color: #fff; 
+	text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+	.nav ul li a {
+		font-size:0.5em;
+	}
+
+	.heading {
+		display: none;
+	}
+
+	.introduction > h1{
+		margin-top: 25%;
+	}
+
+	.introduction h3 {
+		font-size: 75%;
+	}
+	.carousel-caption {
+		display: none;
+	}
+}
+
+.heading {
+	margin: 20% 0 0 0;
+}
+
+
+.subheading {
+	font-size: 5em;
 }
 
 .nav ul li a {
@@ -59,9 +83,9 @@ body {
 
 .social > button {
 	background-color: transparent;
-	border: 0.25rem #fff solid;
-	height: 4rem;
-	width: 8rem;
+	border: 0.25em #fff solid;
+	height: 4em;
+	width: 8em;
 }
 
 .social > button > a{
@@ -183,7 +207,7 @@ p {
 
 .main_text {
 	clear: both;
-	padding-top: 4rem;
+	padding-top: 4em;
 }
 
 .header {
@@ -198,7 +222,7 @@ p {
 .image {
 	display: inline-block;
 	float: left;
-	margin-right: 0.5rem;
+	margin-right: 0.5em;
 }
 
 .column {
@@ -206,11 +230,11 @@ p {
 	float: left;
 	width: 30%;
 	position: relative;
-	margin: 0 0.75rem;
+	margin: 0 0.75em;
 }
 
 .intro {
-	width: 35rem;
+	width: 35em;
 }
 
 footer {
