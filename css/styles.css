@@ -4,24 +4,30 @@ body {
 	color: #34495e;
 }
 
-.jumbotron {
-	background-image: url('../img/ocean.jpeg');
-	background-repeat: no-repeat;
+.container-fluid {
 	background-size: cover;
-	height: 512px;
+	padding-left: 0;
 }
 
 .jumbotron .name,
 .subheading {
 	color: #fff;
+	text-transform: uppercase;
+	padding-left: 8rem;
+}
+
+.name {
+	padding-top: 4rem;
 }
 
 .nav {
 	background-color: transparent;
+	height: 4em;
+
 }
 
 .nav ul li a {
-	color: #376a74;
+	color: #fff;
 }
 
 .subpage .nav li a {
@@ -112,6 +118,10 @@ h1,
 h2,
 h3 {
 	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.carousel-caption h3 {
+	text-transform: lowercase;
 }
 
 .intro p {

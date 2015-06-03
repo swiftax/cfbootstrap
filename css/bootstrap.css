@@ -528,10 +528,10 @@ th {
   content: "\e078";
 }
 .glyphicon-chevron-left:before {
-  content: "\e079";
+  content: ;
 }
 .glyphicon-chevron-right:before {
-  content: "\e080";
+  content: ;
 }
 .glyphicon-plus-sign:before {
   content: "\e081";
@@ -1412,8 +1412,8 @@ pre code {
   }
 }
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0;
+  padding-left: 0;
   margin-right: auto;
   margin-left: auto;
 }
@@ -4548,7 +4548,7 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: transparent;
 }
 .jumbotron h1,
 .jumbotron .h1 {
