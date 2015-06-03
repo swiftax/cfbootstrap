@@ -16,6 +16,8 @@ body {
 	padding-left: 8rem;
 }
 
+.jumbotron 
+
 .name {
 	padding-top: 4rem;
 }
@@ -145,6 +147,10 @@ footer p {
 }
 
 /* POSITIONING */
+
+#name .col-md-4 {
+	padding-right: 1em;
+}
 
 .nav {
 	position: fixed;
