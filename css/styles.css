@@ -9,12 +9,16 @@ body {
 	text-align: center;
 }
 
+.main-header {
+	overflow: hidden;
+}
+
 .heading {
 	margin-top: 8em;
 }
 
 .container-fluid {
-	height: 50em;
+	height: 60em;
 }
 
 .carousel-caption {
@@ -167,6 +171,10 @@ footer p {
 	margin: 0 auto;
 }
 
+#portfolio {
+	height: 512px;
+}
+
 .carousel-caption {
 	position: relative;
 }
@@ -214,8 +222,9 @@ footer {
 	text-align: center;
 	margin-top: 2.5%;
 	padding: 2.5% 0;
+	bottom: 0;
 }
- 
+
 .subpage {
 	margin-top: 2.5%;
 }
