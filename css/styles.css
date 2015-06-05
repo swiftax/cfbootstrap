@@ -16,6 +16,10 @@ body {
 .container-fluid {
 	height: 50em;
 }
+
+.carousel-caption {
+	display: none;
+}
  
 .nav {
 	background-color: transparent;
