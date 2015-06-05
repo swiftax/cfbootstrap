@@ -7,23 +7,28 @@ body {
 .introduction {
 	color: #fff;
 	text-align: center;
-	display: block;
-}
-
-.main-header {
-	overflow: hidden;
+	
 }
 
 .heading {
 	margin-top: 8em;
 }
 
-.container-fluid {
-	height: 55em;
+.carousel-caption  {
+	letter-spacing: 5px;
+	text-transform: uppercase;
 }
 
-.carousel-caption {
-	display: none;
+.carousel-caption h3 {
+	margin-top: -20em;
+}
+
+.carousel-caption p {
+	text-transform: lowercase;
+}
+
+.carousel-caption h1 {
+	font-size: 4em;
 }
  
 .nav {
