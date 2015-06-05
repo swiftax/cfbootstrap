@@ -3,119 +3,79 @@ body {
 	background-color: #fffeea;
 	color: #34495e;
 }
-
-.container-fluid {
-	background-size: cover;
-	padding-left: 0;
-}
-
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-}
-
-
-.nav {
-	background-color: transparent;
-	height: 4em;
-
-}
-
+ 
 .introduction {
+	color: #fff;
 	text-align: center;
-	color: #fff; 
-	text-transform: uppercase;
-}
-
-@media (max-width: 480px) {
-	.nav ul li a {
-		font-size:0.5em;
-	}
-
-	.heading {
-		display: none;
-	}
-
-	.introduction > h1{
-		margin-top: 25%;
-		overflow: hidden;
-	}
-
-	.introduction h3 {
-		font-size: 75%;
-	}
-	.carousel-caption {
-		display: none;
-	}
 }
 
 .heading {
-	margin: 20% 0 0 0;
+	margin-top: 8em;
 }
 
-
-.introduction > h1 {
-	font-size: 5em;
+.container-fluid {
+	height: 50em;
 }
-
+ 
+.nav {
+	background-color: transparent;
+}
+ 
 .nav ul li a {
-	color: #fff;
+	color: #376a74;
 }
-
+ 
 .subpage .nav li a {
 	color: #fff;
 }
-
+ 
 .faq .nav li a {
 	color: #000;
 }
-
+ 
 .nav a:hover {
 	color: #bc964f;
 	-webkit-transition: color 600ms;
 }
-
+ 
 .skills {
 	background-color: #376a74;
 	color: #FFF;
 }
-
+ 
 .subpage {
 	background-image: url('../img/piano.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
 }
-
+ 
 .social > button {
 	background-color: transparent;
-	border: 0.25em #fff solid;
-	height: 4em;
-	width: 8em;
+	border: 0.25rem #fff solid;
+	height: 4rem;
+	width: 8rem;
 }
-
+ 
 .social > button > a{
 	text-decoration: none;
 	color: #fff;
 }
-
+ 
 footer {
 	background-color: #376a74;
 	color: #fff;
 }
-
+ 
 .subpage-nav ul li a {
 	color: #fff;
 }
-
+ 
 .glyphicon:hover {
 	color: #fff;
 	-webkit-transition: color 1200ms;
 }
-
+ 
 #headingOne,
 #headingTwo,
 #headingThree,
@@ -123,135 +83,135 @@ footer {
 	background-color: #bc964f;
 	color: #fff;
 }
-
+ 
 .panel a:hover {
 	color: #000;
 	-webkit-transition: color 600ms;
 }
-
+ 
 .panel-body {
 	color: #000;
 }
-
+ 
 .faq-footer {
 	background-color: transparent;
 }
-
+ 
 /* TYPOGRAPHY */
-
+ 
 * {
 	font-family: 'PT Sans', 'Roboto', sans-serif;
 }
 
+.introduction h1 {
+	font-size: 5em;
+}
+ 
 .nav ul li a {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	text-decoration: none;
 }
-
+ 
 h1,
 h2,
 h3 {
 	font-family: Futura, Helvetica, Arial, sans-serif;
 }
-
-.carousel-caption h3 {
-	text-transform: lowercase;
-}
-
+ 
 .intro p {
 	font-family: Futura, Helvetica, Arial, sans-serif;
 	font-size: 3em;
 	font-weight: 100;
 }
-
-
+ 
+ 
 .skills h3 {
 	text-align: center;
 	text-transform: uppercase;
 }
-
+ 
 footer p {
 	text-transform: uppercase;
 }
-
+ 
 .header h1 {
 	text-transform: uppercase;
 }
-
+ 
 /* POSITIONING */
-
-#name .col-md-4 {
-	padding-right: 1em;
-}
-
+ 
 .nav {
 	position: fixed;
 	width: 100%;
 	top: 0; /* To make sure your navigation bar stays in the topmost position (the distance from the top of the viewport should be zero) add a top property with a value of 0: */
 	left: 0;
 }
-
+ 
 .nav ul {
 	float: right;
 	margin-right: 3em;
 }
-
+ 
 .nav ul li {
 	display: inline-block;
 	padding: 20px 10px 20px;
 }
-
+ 
 .container {
 	width: 80%;
 	margin: 0 auto;
 }
 
+.carousel-caption {
+	position: relative;
+}
+ 
 p {
 	-webkit-margin-before: 0;
 }
 #skill_list {
 	margin-left: 50px;
 }
-
+ 
 .main_text {
 	clear: both;
-	padding-top: 4em;
+	padding-top: 4rem;
 }
-
+ 
 .header {
 	margin-bottom: 40px;
 	margin-top: 7.5%;
 }
-
+ 
 .header h1 {
 	text-align: center;
 }
-
+ 
 .image {
 	display: inline-block;
 	float: left;
-	margin-right: 0.5em;
+	margin-right: 0.5rem;
 }
-
+ 
 .column {
 	display: inline-block;
 	float: left;
 	width: 30%;
 	position: relative;
-	margin: 0 0.75em;
+	margin: 0 0.75rem;
 }
-
+ 
 .intro {
-	width: 35em;
+	width: 35rem;
 }
-
+ 
 footer {
 	text-align: center;
 	margin-top: 2.5%;
 	padding: 2.5% 0;
 }
-
+ 
 .subpage {
 	margin-top: 2.5%;
 }
@@ -261,40 +221,38 @@ footer {
 	text-transform: uppercase;
 	margin-top: 5%;
 }
-
+ 
 .big-paragraph {
 	margin: 2.5% 20% 0 20%;
 	text-align: center;
 }
-
+ 
 .email-address {
 	text-transform: uppercase;
 	text-align: center;
 }
-
+ 
 .small-paragraph {
 	margin: 2.5% 20% 0 20%;
 	text-align: center;
 	font-style: italic;
 	font-weight: 300;
 }
-
+ 
 .address {
 	margin-top: 2.5%;
 }
-
+ 
 .address > h1 {
 	margin: auto;
 	text-align: center;
 }
-
+ 
 .social {
 	text-align: center;
 	margin-top: 2.5%;
 }
-
+ 
 .social > button {
 	margin: 0 0.25em;
 }
-
-
