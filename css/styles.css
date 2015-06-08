@@ -36,7 +36,8 @@ body {
 }
  
 .nav ul li a {
-	color: #376a74;
+	color: #fff;
+	font-size: 1.25em;
 }
  
 .subpage .nav li a {
@@ -177,14 +178,10 @@ footer p {
 	margin: 0 auto;
 }
 
-#portfolio {
-	height: 512px;
-}
-
 .carousel-caption {
 	position: relative;
 }
- 
+
 p {
 	-webkit-margin-before: 0;
 }
